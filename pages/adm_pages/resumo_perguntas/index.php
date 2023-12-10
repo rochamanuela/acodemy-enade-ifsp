@@ -65,24 +65,59 @@
     </nav>
     <main>
         <div class="text">
-            <h1>Cadastro de Perguntas</h1>
+            <h1>Resumo Geral de Perguntas</h1>
             <p class="area-description">
-                Cadastre e gerencie perguntas do ENADE no sistema de uma maneira simplificada, proporcionando aos
-                estudantes uma valiosa ferramenta para aprimorar seus estudos
+                Esta lista apresenta todas as perguntas que você cadastrou.
             </p>
         </div>
-        <div class="container-form">
-            
+        <div class="container-main">
+
+            <!-- essa tabela deve conter um resumo de todas as perguntas que o admin cadastrou -->
+            <div class="table-container">
+                <table>
+                    <tr class="header-table">
+                        <th>Ano da Prova</th>
+                        <th>Enunciado</th>
+                        <th>Resposta</th>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>It is a long established fact that a reader...</td>
+                        <td>Alternativa A</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-container">
+                <a href="../cad_perguntas/cadastrar_perguntas.html" class="btn-cad">Cadastrar Nova Pergunta</a>
+                <a href="../resumo_respostas/index.php" class="btn-view">Ver Desempenho dos Estudantes</a>
+            </div>
         </div>
     </main>
-
-    <script>
-        function autoResize(fieldName) {
-            const textarea = document.getElementById(fieldName);
-            textarea.style.height = "auto"; // Redefine a altura para auto
-            textarea.style.height = textarea.scrollHeight + "px"; // Ajusta a altura com base no conteúdo
-        }
-    </script>
 </body>
 
 </html>

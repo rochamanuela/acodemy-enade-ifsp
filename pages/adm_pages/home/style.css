@@ -346,7 +346,7 @@ a.btn-cad {
 
 a.btn-view {
     color: var(--blue);
-    background: rgba(0, 123, 255, 0.30);
+    background: rgba(0, 123, 255, 0.20);
 }
 
 a.btn-cad:hover,
