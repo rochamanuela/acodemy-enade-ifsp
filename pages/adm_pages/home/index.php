@@ -25,7 +25,7 @@
                 </a>
             </li>
             <li class="item-menu">
-                <a href="cadastrar_perguntas.html">
+                <a href="../cad_perguntas/cadastrar_perguntas.html">
                     <span class="icon"><i class="bi bi-file-earmark-plus"></i></span>
                     <span class="txt-link">Perguntas</span>
                 </a>
@@ -139,8 +139,8 @@
                             simplificada, proporcionando aos estudantes uma valiosa ferramenta
                             para aprimorar seus estudos.</p>
                         <div class="btn-container">
-                            <a href="" class="btn-cad">Cadastrar</a>
-                            <a href="" class="btn-view">Visualizar</a>
+                            <a href="../cad_perguntas/cadastrar_perguntas.html" class="btn-cad">Cadastrar</a>
+                            <a href="../resumo_perguntas/index.php" class="btn-view">Visualizar</a>
                         </div>
                     </div>
                     <div class="banco-item">
