@@ -149,7 +149,7 @@
                             e eficiente, proporcionando facilidade e agilidade nas tarefas
                             relacionadas à administração acadêmica.</p>
                         <div class="btn-container">
-                            <a href="#" class="btn-cad">Cadastrar</a>
+                            <a href="../cad_estudantes/index.html" class="btn-cad">Cadastrar</a>
                             <a href="#" class="btn-view">Visualizar</a>
                         </div>
                     </div>
