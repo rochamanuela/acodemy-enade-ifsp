@@ -3,9 +3,9 @@ Este é um projeto que foi realizado para a faculdade. O intuito é facilitar o 
 
 ## Desenvolvedores:
 Manuela Rocha <br>
-Jennifer Costa 
-Eduardo Oliveira 
-Henrique Marques 
+Jennifer Costa <br>
+Eduardo Oliveira <br>
+Henrique Marques <br>
 
 ## Instituição de Ensino
 IFSP Campus Hortolândia
