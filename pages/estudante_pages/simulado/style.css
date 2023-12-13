@@ -168,6 +168,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #005fc5;
     border: #005fc5;
+
+    /* tá aqui só pra ir */
 }
 
 #label-enunciado {
