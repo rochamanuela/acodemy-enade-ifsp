@@ -320,6 +320,65 @@ input.btn-cad:hover {
     color: #fff;
 }
 
+/* btn pra parte de feedback */
+a.btn-cad,
+a.btn-view {
+    border-radius: 8px;
+    height: 45px;
+    font-family: Poppins;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+
+    padding: 0 32px;
+}
+
+a.btn-cad {
+    color: var(--white);
+    background: #007BFF;
+}
+
+a.btn-view {
+    color: var(--blue);
+    background: rgba(0, 123, 255, 0.20);
+}
+
+a.btn-cad:hover,
+a.btn-view:hover {
+    background: #005fc5;
+    color: #fff;
+}
+
+/* mostrar por usuário se a resposta está correta ou não */
+p.feedback-certo, p.feedback-errado {
+    border-radius: 8px;
+    height: 35px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 130px;
+    padding: 0 32px;
+    margin-bottom: 15px;
+}
+
+p.feedback-certo {
+    color: #00B11C;
+    background: rgba(17, 212, 37, 0.14);
+}
+
+p.feedback-errado {
+    color: #FF6F61;
+    background: rgba(255, 111, 97, 0.22);
+}
+
 /* responsividade */
 
 @media screen and (min-width: 820px) and (max-width: 1310px) {
@@ -351,9 +410,7 @@ input.btn-cad:hover {
 
 @media screen and (min-width: 1311px) and (max-width: 1920px) and (min-height: 970px) {
     main {
-        padding: 0 8%;
         justify-content: center;
-        height: 100vh;
     }
 }
 
